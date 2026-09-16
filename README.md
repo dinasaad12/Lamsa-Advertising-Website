@@ -29,7 +29,7 @@ Lamsa Advertising Website is a multi-page Arabic RTL website created for a ficti
 
 ## Figma Design
 
-[View Figma Design](https://www.figma.com/design/c299b8YSyCtyD8sr8aG76S/%D9%85%D9%88%D9%82%D8%B9-%D8%AF%D8%B9%D8%A7%D9%8A%D8%A9-%D9%88%D8%A7%D8%B9%D9%84%D8%A7%D9%86-pycalia?node-id=2001-2402&t=PB3Zjhg4dqVjQIUE-1)
+(https://www.figma.com/design/c299b8YSyCtyD8sr8aG76S/%D9%85%D9%88%D9%82%D8%B9-%D8%AF%D8%B9%D8%A7%D9%8A%D8%A9-%D9%88%D8%A7%D8%B9%D9%84%D8%A7%D9%86-pycalia?node-id=2001-2402&t=PB3Zjhg4dqVjQIUE-1)
 
 ## Features
 
