@@ -1,0 +1,159 @@
+{
+  "fileName": "موقع دعاية واعلان pycalia",
+  "textStyles": [
+    {
+      "name": "Arabic font/h1: Medium",
+      "fontFamily": "Tajawal",
+      "fontWeight": "Medium",
+      "fontSize": 44,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "Arabic font/h1: Bold",
+      "fontFamily": "Tajawal",
+      "fontWeight": "Bold",
+      "fontSize": 44,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "Arabic font/h2: Medium",
+      "fontFamily": "Tajawal",
+      "fontWeight": "Medium",
+      "fontSize": 35,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "Arabic font/h2: Bold",
+      "fontFamily": "Tajawal",
+      "fontWeight": "Bold",
+      "fontSize": 35,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "Arabic font/h3: Bold",
+      "fontFamily": "Tajawal",
+      "fontWeight": "Bold",
+      "fontSize": 28,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "Arabic font/h3: Medium",
+      "fontFamily": "Tajawal",
+      "fontWeight": "Medium",
+      "fontSize": 28,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "Arabic font/h4: Medium",
+      "fontFamily": "Tajawal",
+      "fontWeight": "Medium",
+      "fontSize": 23,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "Arabic font/h4: Bold",
+      "fontFamily": "Tajawal",
+      "fontWeight": "Bold",
+      "fontSize": 23,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "Arabic font/body: Regular",
+      "fontFamily": "Tajawal",
+      "fontWeight": "Regular",
+      "fontSize": 18,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "Arabic font/body: Medium",
+      "fontFamily": "Tajawal",
+      "fontWeight": "Medium",
+      "fontSize": 18,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "Arabic font/caption: Regular",
+      "fontFamily": "Tajawal",
+      "fontWeight": "Regular",
+      "fontSize": 14,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "Arabic font/caption: Medium",
+      "fontFamily": "Tajawal",
+      "fontWeight": "Medium",
+      "fontSize": 14,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "Arabic font/inline: Regular",
+      "fontFamily": "Tajawal",
+      "fontWeight": "Regular",
+      "fontSize": 12,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    },
+    {
+      "name": "Arabic font/inline: Medium",
+      "fontFamily": "Tajawal",
+      "fontWeight": "Medium",
+      "fontSize": 12,
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "textCase": "ORIGINAL"
+    }
+  ]
+}
