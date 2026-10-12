@@ -53,9 +53,7 @@ p {
 }
 h1{
   font-size: 44px;
-  color: var(--primary-color-400);
-  padding-bottom: var(--space-between-sections);
-  text-align: center;
+  
 }
 
 h2{
@@ -139,6 +137,12 @@ html {scroll-behavior: smooth;
   background-size: cover;
   padding-bottom: var(--main-tp-padding);
 }
+
+#main_header h1{
+  color: var(--primary-color-400);
+  padding-bottom: var(--space-between-sections);
+  text-align: center;
+}
 /* start navbar section */
 .nav_container{
   padding-bottom: 56px;
@@ -212,6 +216,7 @@ html {scroll-behavior: smooth;
     display: flex;
     gap: 44px;
     padding-top: var(--main-tp-padding);
+    padding-bottom: var(--main-tp-padding);
   }
   .about_us .container img {
     min-width: 400px;
@@ -600,4 +605,150 @@ footer .last_footer p {
 
 /* end of footer */
 
+/* start of who we are*/
+header#who_we_are{
+background-image: url(Assets/all_images/about_image/hero_section.png) ;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 
+}
+.who_we_are{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+margin-bottom: var(--space-between-sections);
+}
+
+.who_we_are h1{
+  margin-bottom: 24px;
+  color: var(--primary-color-50);
+  
+}
+
+.who_we_are p{
+  margin-bottom: var(--space-between-sections);
+  color: var(--primary-color-50);
+}
+
+.who_we_are a{
+  display: flex;
+  width: fit-content;
+  height: 48px;
+  border-radius: 16px;
+  padding: 0 24px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--primary-color-600);
+  margin-bottom: var(--space-between-sections);
+}
+/* end of who we are*/
+
+
+/* start of projects*/
+.projects .projects_title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: var(--space-between-sections);
+}
+
+.projects .cards{
+  display: flex;
+  flex-direction: column;
+}
+
+.projects  .cards .card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects  .cards .card .content{
+  display: flex;
+  flex-direction: column;
+}
+
+.projects  .cards  > .card:nth-child(1) .content,
+.projects  .cards > .card:nth-child(3) .content{
+  margin-right: 16px;
+}
+
+.projects  .cards > .card:nth-child(2) .content{
+  margin-left: 16px;
+}
+
+
+  
+.projects  .cards .card h4{
+  display: flex;
+  text-decoration: underline;
+  text-decoration-color: var(--primary-color-600);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 16px;
+  margin-bottom: 24px;
+}
+
+.projects  .cards .card img{
+  width: 30%;
+}
+
+.projects  .cards .card p{
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.projects  .cards .card a{
+  display: flex;
+  padding: 0 24px;
+  background-color: var(--primary-color-600);
+  border-radius: 16px;
+  width: fit-content;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 8px;
+
+}
+
+.projects  .cards .card a span img{
+  width: 32px;
+  height: 32px;
+}
+/* end of projects*/
+
+/* start of numbers*/
+.numbers_section #numbers_section{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.numbers_section .number{
+ min-width: 240px;
+ height: auto;
+ padding:24px 16px;
+ background-color: var(--primary-color-50);
+ border:  1px solid var(--primary-color-500);
+ margin:0 auto;
+ border-radius: 16px;
+}
+
+.numbers_section .number h3{
+  font-weight: 500;
+  text-align: center;
+
+}
+.numbers_section .number h4{
+  font-weight: 400;
+  text-align: center;
+
+}
+/* end of numbers*/
