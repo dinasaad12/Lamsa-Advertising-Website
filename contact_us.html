@@ -20,106 +20,105 @@
   </head>
 
   <body>
-    <!-- start of header -->
-    <header id="main_header">
-      <!-- start of navigation bar -->
-      <nav>
-        <!-- contact us button-->
-        <a href="contact_us.html" target="_blank"> تواصل معنا</a>
+<!-- start of contact_header -->
+<header id="contact_header">
 
-        <!-- logo and language icon -->
-        <div id="logo_lang_icon">
-          <a href="index.html"
-            ><img
-              src="Assets/logo/logo70-70.png"
-              alt=" logo "
-              width="70"
-              height="70"
-            />
-          </a>
-          <img
-            src="Assets/icons/icons60/language_svgrepo.com.png"
-            alt=" language icon "
-            width="60"
-            height="60"
-          />
-        </div>
-        <!-- unordered list for links -->
-        <div id="links">
-          <ul>
-            <li><a href="index.html">الرئيسية</a></li>
+<div class="container">
+<!-- start of navigation bar -->
+<div class="nav_container">
+
+<nav class="nav_bar">
+ 
+
+  <a href="index.html">
+    <img src="Assets/logo/logo70-70.png" alt=" logo "> 
+  </a>
+
+ <!-- logo and language icon --> 
+ <img src="Assets/icons/icons60/language_svgrepo.com.png" alt=" language icon ">
+
+ <!-- unordered list for links --> 
+ <div class="links">
+    <ul>
+            <li><a href="index.html"  >الرئيسية</a></li>
             <li><a href="about.html" target="_blank">من نحن</a></li>
             <li><a href="contact_us.html" target="_blank">تواصل معنا</a></li>
             <li>
-              <details>
-                <summary>خدماتنا</summary>
-                <ul>
-                  <li>
-                    <a href="service_details.html">التصميم الجرافيكي</a>
-                  </li>
+                <details>
+                    <summary> خدماتنا</summary>
+                     <ul>
+                        <li>
+                            <a href="service_details.html" >التصميم الجرافيكي</a>
+                        </li>
 
-                  <li>
-                    <a href="service_details.html">ادارة الحملات الاعلامية </a>
-                  </li>
+                        <li>
+                            <a href="service_details.html" >ادارة الحملات الاعلامية </a> </li> 
 
-                  <li>
-                    <a href="service_details.html">التسويق الرقمي </a>
-                  </li>
-                  <li>
-                    <a href="service_details.html"
-                      >ادارة منصات التواصل الاجتماعي</a
-                    >
-                  </li>
+                        <li>
+                            <a href="service_details.html" >التسويق الرقمي </a>
+                        </li>
+                         <li>
+                            <a href="service_details.html" >ادارة منصات التواصل الاجتماعي</a>
+                        </li>
 
-                  <li>
-                    <a href="service_details.html"
-                      >الطباعة والإنتاج الاعلامي
-                    </a>
-                  </li>
+                        <li>
+                            <a href="service_details.html" >الطباعة والإنتاج الاعلامي </a>
+                        </li>
 
-                  <li>
-                    <a href="service_details.html">الموشن جرافيك والفيديو</a>
-                  </li>
+                        <li>
+                            <a href="service_details.html" >الموشن جرافيك والفيديو</a>
+                        </li>
+                        
+                        <li>
+                            <a href="service_details.html">تصميم الهوية البصرية </a>
+                        </li>
 
-                  <li>
-                    <a href="service_details.html">تصميم الهوية البصرية </a>
-                  </li>
-                </ul>
-              </details>
+                     </ul>
+                </details>
             </li>
             <li><a href="blog.html" target="_blank">المدونة</a></li>
-            <li>
-              <a href="suggestions.html" target="_blank">الشكاوي والاقتراحات</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <!-- end of navigation bar -->
-    </header>
-    <!-- end of header -->
+            <li><a href="suggestions.html" target="_blank">الشكاوي والاقتراحات</a></li>
+   </ul>  
+</div>  
 
-    <!-- start of contact_us -->
-    <main>
-      <div id="contact_us">
-        <h1>تواصل معنا</h1>
 
-        <form action="submit_form.php" method="post">
-          <ul>
-            <li>
-              <label for="name"> :الاسم</label>
-              <input
-                type="text"
-                id="name"
-                name="name"
-                placeholder="يوسف أحمد"
-                minlength="3"
-                maxlength="20"
-                required
+<!-- contact us button-->    
+ <a class="primary-button"    href="contact_us.html" target="_blank"> تواصل معنا</a>    
+</nav>
+
+</div>
+<!-- end of navigation bar -->
+</div>
+
+</header>
+<!-- end of contact_header -->
+
+<main>
+
+<!-- start of contact_us_section -->
+<div id="contact_us">
+
+<div class="container">  
+<h1>تواصل معنا 
+</h1>
+
+<div class="row">
+
+<form action="submit_form.php" method="post">
+    <ul>
+      <li>
+        <label for="name"> الإسم:</label>
+          <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="يوسف أحمد"
+          required
               />
-            </li>
+      </li>
 
-            <li>
-              <lable for="email"> :البريد الإلكتروني</lable>
+      <li>
+              <label for="email"> البريد الإلكتروني: </label>
               <input
                 dir="ltr"
                 type="email"
@@ -128,10 +127,10 @@
                 placeholder="youremail@example.com"
                 required
               />
-            </li>
+      </li>
 
-            <li>
-              <lable for="message"> :أي سؤال أو اقتراح</lable>
+      <li>
+              <label for="message"> :أي سؤال أو اقتراح</label>
               <textarea
                 name="message"
                 id="message"
@@ -142,21 +141,28 @@
                 required
               >
               </textarea>
-            </li>
+      </li>
 
-            <li>
+      <li>
               <input type="checkbox" id="agree" name="agree" required />
               <lable for="agree">أوافق على الشروط والأحكام</lable>
-            </li>
+      </li>
 
-            <li>
+      <li>
               <button type="submit">إرسال</button>
-            </li>
-          </ul>
-        </form>
-        <img src="Assets/all_images/contact_us_image/Image.png" />
-      </div>
-      <!-- end of contact_us -->
+      </li>
+
+    </ul>
+</form>
+
+<img src="Assets/all_images/contact_us_image/Image800.png" />
+
+</div>
+
+</div>
+
+</div>
+<!-- end of contact_us_section -->
 
       <!-- start of our_clients -->
       <section class="clients">
