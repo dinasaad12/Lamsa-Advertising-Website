@@ -704,16 +704,19 @@ margin-bottom: var(--space-between-sections);
   margin-bottom: 24px;
 }
 
-.projects  .cards .card a{
+.projects  .cards .card a,
+#suggession_hero a,
+#hero_detail a{
   display: flex;
   padding: 0 24px;
-  background-color: var(--primary-color-600);
+  background-color: var(--primary-color-500);
   border-radius: 16px;
   width: fit-content;
   height: 48px;
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-inline: auto;
   gap: 8px;
 
 }
@@ -754,13 +757,15 @@ margin-bottom: var(--space-between-sections);
 /* end of numbers*/
 
 /* start of blog_section*/
-#blog_section{
+#blog_section,
+#services {
   margin-top: var(--space-between-sections);
 }
 
 
 
-#blog_section h2{
+#blog_section h2,
+#services h2{
   text-decoration: underline;
   text-decoration-color: var(--primary-color-600);
   text-decoration-thickness: 3px;
@@ -770,26 +775,31 @@ margin-bottom: var(--space-between-sections);
   margin-bottom: var(--space-between-sections);
   
 }
-.blog_cards{
+.blog_cards,
+.container#services .service_cards{
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
   gap: 16px;
   padding-bottom: var(--space-between-sections);
   
 }
-.blog_cards .blog_card{
+.blog_cards .blog_card,
+.container#services .service_cards .service_card{
  min-width: 300px; 
  padding: 24px;
  background-color: var(--primary-color-50);
  border-radius: 16px;
 }
-.blog_cards .blog_card img{
+.blog_cards .blog_card img,
+.container#services .service_cards .service_card img{
   border-radius: 8px;
 }
-.blog_cards .blog_card p{
+.blog_cards .blog_card p,
+.container#services .service_cards .service_card p{
   margin-bottom: 24px;
 }
-.blog_cards .blog_card a{
+.blog_cards .blog_card a,
+.container#services .service_cards .service_card a{
   display: block;
    width: fit-content; 
   /* height:40px; */
@@ -830,15 +840,16 @@ margin-bottom: var(--space-between-sections);
   width: 100%;
   padding: 32px;
   background-color: var(--primary-color-50);
-  /* border-radius: 24px; */
+
 
 }
 
 #contact_us .row form ul {
 display: flex;
 flex-direction: column;
-gap: 24px;
+gap: 32px;
 list-style: none;
+height: 100%;
 }
 
 #contact_us .row form ul li{
@@ -875,6 +886,7 @@ flex-direction: row;
 justify-content: right;
 align-items: center;
 gap: 8px;
+margin-bottom: 48px;
 }
 
 #contact_us form input[type="checkbox"]{
@@ -883,8 +895,8 @@ gap: 8px;
   flex-shrink: 0;
 }
 
-#contact_us form button{
-  /* padding: 32px 24px; */
+#contact_us form button
+{
   background-color: var(--primary-color-500);
   height: 48px;
   text-align: center;
@@ -894,16 +906,188 @@ gap: 8px;
   color: var(--primary-color-950);
   cursor: pointer;
   font: inherit;
+  border: none;
 }
-#contact_us .row > img {
+#contact_us .row  img {
     display: block;
     width: 100%;
     height: 100%;
     min-height: 500px;
     object-fit: cover;
-    /* border-radius: 16px; */
-}
-/* #contact_us .row img{
-  height: auto; } */ 
 
+}
 /* end of contact_us_section  */
+
+/* start of suggestion_section  */
+#suggession_hero h1,
+#suggession_hero p
+{
+text-align: center;
+}
+
+#suggession_hero h1{
+  gap: 8px;
+}
+
+#suggession_hero p{
+  margin-bottom: var(--space-between-sections);
+}
+
+#suggession_hero a{
+  margin-bottom: var(--space-between-sections);
+}
+/* end of suggestion_section  */
+
+/* start of company data  */
+#company_data{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: stretch; 
+  gap: 24px;
+  margin-bottom: var(--space-between-sections); 
+}
+
+#company_data .data{
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color-50);
+  border-radius: 8px;
+  padding: 16px 32px;
+}
+
+.company_data .data img{
+  width: 40px;}
+/* end of company data  */
+
+/* <!-- start of writting suggestion--> */
+.writing_suggestion{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--space-between-sections);
+}
+
+.writing_suggestion h2{
+  margin-bottom: var(--space-between-sections);}
+
+  .writing_suggestion p{
+  margin-bottom: 24px;}
+
+   .writing_suggestion form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1248px;
+    }
+
+.writing_suggestion form textarea{
+    display: block;
+    width: 100%;
+    height: 354px;
+    margin-bottom: var(--space-between-sections);
+}
+
+.writing_suggestion form button{
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-inline: auto;
+   height: 48px;
+   width: fit-content;
+   background-color: var(--primary-color-500);
+   color: var(--primary-color-950);
+   border: none;
+   padding:0 24px;
+   border-radius: 16px;
+   width: 391px;
+}
+
+.numbers_section#suggestion_number{
+  margin-bottom: var(--space-between-sections);
+}
+/* <!-- end of writting suggestion--> */
+
+/* <!-- start of hero_service section --> */
+#service_header{
+  margin-bottom: var(--space-between-sections);
+}
+
+/* <!-- start of hero_service section --> */
+
+#hero_detail{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--space-between-sections);
+  background-image: url(Assets/all_images/service_detail/bg_hero_service.png);
+  background-size: cover;
+  gap: 24px;
+  
+}
+
+
+#hero_detail h1,
+#hero_detail p  {
+  color: var(--primary-color-50);
+}
+
+#hero_detail img{
+width: 120px;
+}
+
+#hero_detail a{
+  margin-bottom: var(--space-between-sections);
+}
+/* <!-- end of hero_service section --> */
+
+/* <!-- start of service features --> */
+#service_features{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: var(--space-between-sections);
+}
+
+#service_features h2,
+#service_features p{
+ text-align: center;
+}
+/* <!-- end of service features --> */
+
+/* <!-- start of servive features cards --> */
+#features_cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 24px;
+}
+
+#features_cards .features_card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 16px;
+  background-color: var(--primary-color-50);
+  border-radius: 16px;
+  margin-bottom: var(--space-between-sections);
+  padding: 16px;
+}
+
+#features_cards .features_card img{
+  width: 60px;
+}
+/* <!-- end of servive features cards --> */
