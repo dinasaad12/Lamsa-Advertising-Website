@@ -322,6 +322,8 @@ html {scroll-behavior: smooth;
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
+    
+    width: 100%;
   }
  
   .service_card {
@@ -579,7 +581,7 @@ height: 70px;
   height: auto;
 }
 
-.contact_links {
+footer .contact_links {
   display: flex;
   flex-direction: row;
   text-align: right;
@@ -1309,12 +1311,6 @@ p{
 /* end responsive navbar */
 
 
-
-
-
-
-
-
 /* mobile */
 @media(max-width: 768px){
   :root{
@@ -1353,8 +1349,38 @@ p{
   padding: 12px;
 }
 /* responsive about section */
-
+.about_us .container{
+  flex-direction: column;
+  gap: 24px;
 }
+
+.about_us .container .content {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.about_us .container img {
+  width: 100%;
+  min-width: 0;
+  }
+  footer .footer_social {
+
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+ 
+}
+footer .footer_social .social_links{
+  margin-bottom: 24px;
+}
+}
+
+
+
+
+
+
+
 
 /* small mobile */
 @media(max-width: 480px){
