@@ -136,6 +136,15 @@ html {scroll-behavior: smooth;
     display: block;
   }
 
+  .container {
+    
+    width:100%;
+    max-width: 1440px;
+    margin: 0  auto;
+    padding-left: var(--main-rl-padding);
+    padding-right: var(--main-rl-padding);
+  }
+
 /* start header section */
 
 
@@ -285,14 +294,7 @@ html {scroll-behavior: smooth;
 
 /* start about section */
 
-  .container {
-    
-    width:100%;
-    max-width: 1440px;
-    margin: 0  auto;
-    padding-left: var(--main-rl-padding);
-    padding-right: var(--main-rl-padding);
-  }
+  
   .about_us .container{
     display: flex;
     gap: 44px;
@@ -302,12 +304,16 @@ html {scroll-behavior: smooth;
   .about_us .container img {
     min-width: 400px;
     max-width: 600px;
+    padding: 0 16px;
   }
   .about_us .container .content {
     display: flex;
     flex-direction: column;
     gap: 24px;
     margin-bottom: var(--space-between-sections);
+    padding: 0 16px;
+    align-items: center;
+    justify-content: center;
   }
 
     .about_us .container .content .section_title{ 
@@ -322,7 +328,7 @@ html {scroll-behavior: smooth;
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
-    
+    padding: 0 16px;
     width: 100%;
   }
  
@@ -814,8 +820,14 @@ margin-bottom: var(--space-between-sections);
 /* start of numbers*/
 .numbers_section #numbers_section{
   display:flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  gap: 16px;
+  
+}
+.numbers_section{
+  margin-bottom: var(--space-between-sections);
   
 }
 .numbers_section .number{
@@ -1256,6 +1268,9 @@ p{
   font-size: 14px;
 }
 /* start tablet navbar */
+.container{
+  max-width: 944px;
+}
 .nav_container{
   padding-top: 32px;
   padding-bottom: 32px;
@@ -1324,6 +1339,15 @@ p{
   border-radius: 50px;
   }
 
+   .container {
+    
+    width:100%;
+    max-width: 718px;
+    margin: 0  auto;
+    padding-left: var(--main-rl-padding);
+    padding-right: var(--main-rl-padding);
+  }
+
     .nav_bar{
     padding: 12px;
     gap: 10px;
@@ -1383,11 +1407,10 @@ footer .footer_social .social_links{
 
 
 /* small mobile */
-@media(max-width: 480px){
+@media(max-width: 320px){
   :root{
     --main-rl-padding:16px;
   }
-
 
    .nav_bar img{
   width: 36px;
